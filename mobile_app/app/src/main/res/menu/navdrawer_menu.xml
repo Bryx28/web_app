@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dashboardFragment3"
+        android:title="@string/my_dashboard"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/ourTeamFragment3"
+        android:title="@string/our_team"
+        android:icon="@drawable/info"/>
+
+    <item
+        android:id="@+id/forecastFragment"
+        android:title="Forecast Data Results"
+        android:icon="@drawable/data"/>
+
+    <item
+        android:id="@+id/aboutFragment2"
+        android:title="About"
+        android:icon="@drawable/about"/>
+
+</menu>
