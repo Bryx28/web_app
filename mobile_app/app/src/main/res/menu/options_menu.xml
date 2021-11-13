@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment3"
+        android:title="My Dashboard"/>
+
+    <item
+        android:id="@+id/aboutFragment2"
+        android:title="@string/our_team" />
+
+    <item
+        android:id="@+id/forecastFragment"
+        android:title="Forecast Data Results"/>
+
+    <item
+        android:id="@+id/ourTeamFragment3"
+        android:title="About"/>
+
+</menu>

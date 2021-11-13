@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_pressed="false"
+        android:drawable="@drawable/button_pressed"/>
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/button_unpressed"
+        android:alpha="0.5"
+        android:layout_width="222dp"
+        android:layout_height="249dp"/>
+</selector>
