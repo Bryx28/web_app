@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dashboardFragment3">
+    <fragment
+        android:id="@+id/dashboardFragment3"
+        android:name="com.example.forecast.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment3_to_ourTeamFragment3"
+            app:destination="@id/ourTeamFragment3" />
+        <action
+            android:id="@+id/action_dashboardFragment3_to_forecastFragment"
+            app:destination="@id/forecastFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment3_to_aboutFragment2"
+            app:destination="@id/aboutFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ourTeamFragment3"
+        android:name="com.example.forecast.OurTeamFragment"
+        tools:layout="@layout/fragment_our_team" />
+    <fragment
+        android:id="@+id/forecastFragment"
+        android:name="com.example.forecast.ForecastFragment"
+        tools:layout="@layout/fragment_forecast" />
+    <fragment
+        android:id="@+id/aboutFragment2"
+        android:name="com.example.forecast.AboutFragment"
+        tools:layout="@layout/fragment_about" />
+</navigation>
