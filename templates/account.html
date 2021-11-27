@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Crop Forecasting </title>
+        <link rel="stylesheet" href="/static/style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+					<li><a href="/home/{{user}}"> Home </a></li>
+                    <li><a href="/dashboard/{{user}}"> Dashboard </a></li>
+                    <li><a href="/crop_mapping/{{user}}"> Crop Mapping </a></li>
+                    <li><a href="/about_us/{{user}}"> About </a></li>
+                    <li><a href="/contact/{{user}}"> Contact </a></li>
+                    <li><a href="/terms_of_use/{{user}}"> Terms of Use </a></li>
+                    <li><a href="/accounts/{{user}}"> Accounts </a></li>
+                </ul>
+            </nav>
+        </header>
+        <center><h2>Account Settings</h2></center>
+        <div>
+            <div class="settings">
+                <center><h2>Account Details</h2></center>
+                <h3>First Name: {{first_name}}</h3>
+                <h3>Middle Name: {{middle_name}}</h3>
+                <h3>Last Name: {{last_name}}</h3>
+                <h3>Email Address: {{email}}</h3>
+            </div>
+            <div class="settings2">
+                <center><h2>General Settings</h2></center>
+                <center><a href="/update_info/{{user}}"><button type="button">Update Info</button></a></center>
+                <center><a href="/del_prompt/{{user}}"><button type="button">Delete Account</button></a></center>
+                <center><a href="/"><button type="button">Log out</button></a></center>
+            </div>
+		</div>
+    </body>
+</html>

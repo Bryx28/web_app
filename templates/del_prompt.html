@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title> Crop Forecasting </title>
+        <link rel="stylesheet" href="/static/style.css"/>
+    </head>
+    <body>
+        <form action="/account_deleted" method='POST'>
+		    <div class="prompt">
+			    <h3>Are you sure you want to delete this account?</h3>
+                <button type="submit" name="username" value="{{user}}">Yes</button>
+                <a href="/accounts/{{user}}"><button type="button">No</button></a>
+            </div>
+        </form>
+    </body>
+</html>

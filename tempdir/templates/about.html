@@ -7,13 +7,13 @@
         <header>
             <nav>
                 <ul>
-					<li><a href="/"> Home </a></li>
-                    <li><a href="/dashboard"> Dashboard </a></li>
-                    <li><a href="/crop_mapping.html"> Crop Mapping </a></li>
-                    <li><a href="/about_us"> About </a></li>
-                    <li><a href="/contact"> Contact </a></li>
-                    <li><a href="/terms_of_use"> Terms of Use </a></li>
-                    <li><a href="/join_us"> Join Us</a></li>
+					<li><a href="/home/{{user}}"> Home </a></li>
+                    <li><a href="/dashboard/{{user}}"> Dashboard </a></li>
+                    <li><a href="/crop_mapping/{{user}}"> Crop Mapping </a></li>
+                    <li><a href="/about_us/{{user}}"> About </a></li>
+                    <li><a href="/contact/{{user}}"> Contact </a></li>
+                    <li><a href="/terms_of_use/{{user}}"> Terms of Use </a></li>
+                    <li><a href="/accounts/{{user}}"> Accounts </a></li>
                 </ul>
             </nav>
         </header>
@@ -25,6 +25,14 @@
             A system that can determine the best-fitted crops that accepts
             soil health parameters on a single plot of land using a 
             forecasting model.
+        </p>
+        <p>
+            This application will assess the current health of the soil, 
+			predict the best-fitted crops based on the input parameters, 
+			and map the best-fitted crops in different locations. 
+			The method includes inputting the current soil health data, 
+			running the data through the forecasting model, 
+			and outputting the forecast in the dashboard.
         </p>
     </body>
 </html>
